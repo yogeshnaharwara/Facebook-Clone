@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav .left .logo img {
+    width: 45px;
+    margin: 5px 0;
+    margin-right: -12px;
+    cursor: pointer;
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+nav .left .search_bar {
+    width: 250px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-left: 10px;
+    position: relative;
+    left: 15px;
+}
+
+nav .left .search_bar i {
+    line-height: 40px;
+    font-size: 19px;
+    color: #919191;
+    margin-right: 5px;
+}
+
+nav .left .search_bar input {
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 200px;
+}
+
+nav .center {
+    position: relative;
+    right: 45px;
+
+}
+
+nav .center a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .center i {
+    margin: 0 45px 0 45px;
+    font-size: 22px;
+}
+
+nav .center i:hover {
+    color: #45abff;
+    cursor: pointer;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+nav .right i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #efefef;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+nav .right img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+#baby {
+    border-bottom: 3px solid blue;
+}
+
+main {
+    display: flex;
+}
+
+/* yha se */
+main .left {
+    height: 752px;
+    width: 400px;
+
+    margin-top: 59px;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+
+}
+
+.main .left::-webkit-scrollbar {
+    width: 7px;
+}
+
+.main .left::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #f5f5f5;
+}
+
+.main .left:hover::-webkit-scrollbar-thumb {
+    background: #cccccc;
+}
+
+/* yha tk*/
+main .left .videoname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    margin-top: 20px;
+}
+
+main .left .videoname .setting {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f6;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.left .search_bar {
+    width: 371px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 30px;
+    padding: 0 10px;
+    margin-left: -3px;
+    position: relative;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.left .search_bar input {
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 200px;
+}
+
+.left .search_bar .babu {
+    margin-left: -85px;
+}
+
+.left .home {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    height: 56px;
+    margin: 10px;
+    background-color: #efefef;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.left .home .shizu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 80%;
+    margin-left: 10px;
+    background-color: #1a77f2;
+}
+
+.left .home1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    height: 48px;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.left .home1:hover{
+    background: #e3e3e3;
+}
+
+.left .home1 .shizu1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 80%;
+    margin-left: 10px;
+    background-color: #efefef;
+}
+
+/* center ki styel */
+.rightside {
+    background-color: #efefef;
+    width: 1044px;
+    margin-top: 59px;
+    margin-left: 400px;
+
+}
+
+.rightside .video_section {
+
+    width: 740px;
+    height: 560px;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.rightside .video_section .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 450px;
+    padding: 8px;
+}
+.rightside .video_section .text .three_dot{
+    cursor: pointer;
+}
+
+.rightside .video_section .text .text_section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.rightside .video_section .text .text_section img {
+    height: 40px;
+    width: 40px;
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.rightside .video_section .hashtag {
+    margin-left: 12px;
+    padding-bottom: 8px;
+}
+
+.rightside .video_section video {
+    width: 740px;
+    height: 424px;
+}
+
+.rightside .video_section .bottom_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.rightside .video_section .bottom_section .like {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.rightside .video_section .bottom_section .like i:hover{
+    cursor: pointer;
+}
+
+.rightside .video_section .bottom_section .like p {
+    font-size: 12px;
+}
+
+.rightside .video_section .bottom_section .like img {
+    height: 20px;
+    cursor: pointer;
+}
+
+.rightside .video_section .bottom_section #like p {
+    font-size: 12px;
+}
